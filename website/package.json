@@ -1,14 +1,14 @@
 {
-  "name": "tfl-component-library-website",
+  "name": "lft-component-library-website",
   "version": "1.0.0",
-  "description": "TfL Component Library website",
+  "description": "LfT Component Library website",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --build --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "TfL",
+  "author": "lft",
   "license": "ISC",
   "dependencies": {
     "react": "^16.10.2",
