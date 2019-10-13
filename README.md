@@ -1,3 +1,0 @@
-# Introduction
-
-Lft Component Library
