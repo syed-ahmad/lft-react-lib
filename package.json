@@ -1,13 +1,13 @@
 {
   "name": "lft-react-lib",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lft React Component Library",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm-run-all dist css js",
-    "dist": "rm -rf ./dist && mkdir ./dist",
+    "build": "npm-run-all dist components css js",
+    "components": "cp -r -n src/components/ ./dist/components/",
     "css": "cp -r src/css ./dist/css",
-    "components": "cp -r src/components ./dist/components",
+    "dist": "rm -rf ./dist && mkdir ./dist",
     "js": "babel ./src --out-dir ./dist -s inline",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
