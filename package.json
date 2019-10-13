@@ -1,6 +1,6 @@
 {
   "name": "lft-react-lib",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lft React Component Library",
   "main": "dist/index.js",
   "scripts": {
