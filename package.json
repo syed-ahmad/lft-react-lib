@@ -4,10 +4,11 @@
   "description": "Lft React Component Library",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npm-run-all dist css prepublishOnly",
+    "build": "npm-run-all dist css js",
     "dist": "rm -rf ./dist && mkdir ./dist",
     "css": "cp -r src/css ./dist/css",
-    "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
+    "js": "babel ./src --out-dir ./dist -s inline",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
