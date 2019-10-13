@@ -25,4 +25,4 @@ $headings-line-height: 1 !default;
 $headings-color: $body-color;
 
 /* Import bootstrap after all customization */
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../../bootstrap/scss/bootstrap';
