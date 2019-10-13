@@ -1,2 +1,2 @@
-import { Header } from './components';
-export { Header };
+import { Button, Header } from './components';
+export { Button, Header };
